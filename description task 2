@@ -1,0 +1,121 @@
+# Hospital Management System
+
+ Overview
+The Hospital Management System is a Java-based application designed to streamline hospital operations,
+including patient registration, appointment scheduling, electronic health records management, billing and invoicing, 
+inventory management, and staff management. This project provides an efficient way to manage hospital data and operations
+while ensuring an intuitive user experience.
+
+---
+
+ Features
+
+ 1. Patient Registration
+- Register new patients with their details: name, age, gender, and contact.
+- View a list of all registered patients.
+
+ 2. Appointment Scheduling
+- Schedule appointments by specifying patient name, doctor name, date, and time.
+- View all scheduled appointments.
+
+ 3. Electronic Health Records (EHR)
+- Manage patient health records by storing and updating their medical history.
+- View all electronic health records.
+
+ 4. Billing and Invoicing
+- Generate invoices for patients with treatment details and billing amounts.
+- View all generated bills.
+
+ 5. Inventory Management
+- Add and update inventory items along with their quantities.
+- View all inventory items.
+
+ 6. Staff Management
+- Add staff details, including name, position, and contact.
+- View all staff information.
+
+ 7. Interactive Menu
+- A console-based menu to access various functionalities easily.
+- Option to exit the system when needed.
+
+---
+
+ How to Run the Project
+
+ Prerequisites
+- Java Development Kit (JDK)**: Ensure JDK 8 or above is installed.
+- IDE or Command Line**: Use an IDE like IntelliJ IDEA, Eclipse, or run via the command line.
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/hospital-management-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd hospital-management-system
+   ```
+3. Compile the Java files:
+   ```bash
+   javac HospitalManagementSystem.java
+   ```
+4. Run the application:
+   ```bash
+   java HospitalManagementSystem
+   ```
+5. Follow the interactive menu to use the system.
+
+---
+
+ Project Structure
+```
+HospitalManagementSystem
+├── HospitalManagementSystem.java
+├── Patient.java
+├── Appointment.java
+├── Bill.java
+├── Staff.java
+└── README.md
+```
+
+---
+
+ Usage
+1. Launch the application.
+2. Use the menu to navigate through the features:
+   - Register patients, schedule appointments, manage inventory, and more.
+3. Enter appropriate inputs as prompted by the system.
+4. View or update data as required.
+
+---
+
+ Contributing
+Contributions are welcome! Follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. Push the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.
+
+---
+
+ License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Acknowledgments
+- Inspired by real-world hospital management challenges.
+- Designed and implemented using Java.
+
+---
+
